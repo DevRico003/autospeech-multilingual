@@ -3,7 +3,7 @@
 BINARY_NAME=autospeech
 
 build:
-	go build -o $(BINARY_NAME) ./cmd/autospeech
+	go build -o $(BINARY_NAME) ./cmd/autospeech-multilingual
 
 run: build
 	./$(BINARY_NAME)
